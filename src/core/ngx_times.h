@@ -39,6 +39,7 @@ extern volatile ngx_time_t  *ngx_cached_time;
 extern volatile ngx_str_t    ngx_cached_err_log_time;
 extern volatile ngx_str_t    ngx_cached_http_time;
 extern volatile ngx_str_t    ngx_cached_http_log_time;
+extern volatile ngx_str_t    ngx_cached_http_log_time_data;
 extern volatile ngx_str_t    ngx_cached_http_log_iso8601;
 extern volatile ngx_str_t    ngx_cached_syslog_time;
 
